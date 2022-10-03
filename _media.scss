@@ -173,9 +173,9 @@
       flex-wrap: wrap;
       // flex-direction: column;
       justify-content: center;
-      .col-sm-4 {
-        width: 49%;
-      }
+      // .col-sm-4 {
+      //   width: 49%;
+      // }
     }
   }
   [class*="sect-"] {
@@ -231,6 +231,7 @@
 
   .navigation ul {
     overflow-x: scroll;
+    align-items: self-start !important;
   }
 
   .slider {
