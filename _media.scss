@@ -86,7 +86,6 @@
 
   .navigation ul {
     overflow-x: scroll;
-    justify-content: center !important;
   }
 
   .slider {
@@ -94,6 +93,7 @@
       text-align: justify;
     }
     .col-sm-7 {
+      text-align: center;
       width: 100% !important;
       align-items: center;
       padding-top: 0 !important;
@@ -113,6 +113,8 @@
     padding-top: 20px !important;
     padding-bottom: 20px !important;
     row-gap: 30px !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   [class*="block-"] {
@@ -198,6 +200,9 @@
     padding-right: 15px;
   }
   .contacts {
+    form {
+      top: -45px !important;
+    }
     .display-flex {
       flex-direction: column;
     }
@@ -224,7 +229,7 @@
       text-align: center;
       padding-left: 0;
       flex-direction: column;
-      align-items: center !important;
+      align-items: flex-start;
       height: auto !important;
     }
   }
@@ -393,7 +398,7 @@
       padding-left: 15px;
       flex-direction: row;
       flex-wrap: wrap;
-      align-content: flex-start;
+      // align-content: flex-start;
     }
   }
   footer .display-flex {
