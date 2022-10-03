@@ -706,7 +706,6 @@ iframe {
     width: 25px;
     height: 20px;
     top: 20px;
-    /* margin: 18px; */
     right: 15px !important;
 
     span {
@@ -752,8 +751,6 @@ iframe {
     right: 0;
     bottom: 0;
     max-width: 280px;
-    // height: -webkit-fit-content;
-    // height: -moz-fit-content;
     height: fit-content;
 
     opacity: 0;
@@ -775,16 +772,9 @@ iframe {
     transform: translateX(0);
     position: fixed;
     border-radius: 15px 0 0 15px;
-
     transition: 0.7s;
-    // right: 0px;
     span {
       width: 25px;
     }
-
-    // ul {
-    //   flex-direction: column;
-    //   align-items: unset;
-    // }
   }
 }
