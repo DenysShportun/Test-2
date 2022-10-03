@@ -1054,7 +1054,7 @@ iframe {
     height: 20px;
     top: 20px;
     /* margin: 18px; */
-    right: 15px;
+    right: 15px !important;
   }
   .nav-mobile-menu span {
     height: 1px;
@@ -1095,10 +1095,16 @@ iframe {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    transform: translateX(150%);
     opacity: 0;
     visibility: hidden;
     background-color: #1d2126;
+    transform: translateX(100%);
+    padding: 10px;
+    transition: 0.7s;
+  }
+  .navigation ul {
+    flex-direction: column;
+    align-items: unset;
   }
   .active-menu {
     z-index: 100;
@@ -1107,10 +1113,9 @@ iframe {
     transform: translateX(0);
     position: fixed;
     border-radius: 15px 0 0 15px;
-    padding: 10px;
+    transition: 0.7s;
   }
-  .active-menu ul {
-    flex-direction: column;
-    align-items: unset;
+  .active-menu span {
+    width: 25px;
   }
 }/*# sourceMappingURL=style.css.map */
