@@ -771,7 +771,7 @@ iframe {
     padding: 10px;
     ul {
       flex-direction: column;
-      align-content: flex-end !important;
+      align-items: unset;
     }
   }
 }

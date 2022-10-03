@@ -210,7 +210,6 @@
   }
   .navigation ul {
     overflow-x: scroll;
-    align-items: self-start !important;
   }
   .slider .col-xs-7 {
     width: 100% !important;
@@ -1112,6 +1111,6 @@ iframe {
   }
   .active-menu ul {
     flex-direction: column;
-    align-content: flex-end !important;
+    align-items: unset;
   }
 }/*# sourceMappingURL=style.css.map */
